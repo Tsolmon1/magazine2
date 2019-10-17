@@ -1,0 +1,232 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+    padding: 25px;
+    max-height: auto;
+}
+
+
+
+
+/* .parallax {
+    background: url('img/photo-0.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px; 
+} */
+
+.header {
+    /* min-height: 500px; */
+    padding: 200px 35px;
+    background: transparent;    
+    text-align: center;
+    /* background: #1abc9c; */
+    color: white;
+    /* font-size: 30px; */
+    font: bold;
+    font-size: 30px;
+    background-position: center;
+    font-family: Georgia, serif;
+}
+.info {
+    z-index: 2;
+    position: absolute;
+    color: #fff;
+    text-align: left;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 50px 50px;
+    
+}
+* {
+    box-sizing: border-box;
+  }
+
+/* .image-footer {
+    font-family: Georgia, serif;
+} */
+.image {
+    width: 100%;
+    background-position: center;
+    padding: 0px 0px;
+}
+p.a {
+    font-family: "Times New Roman", Times, serif;
+    color: darkgray;
+    /* margin: 20px 20px 20px 10px; */
+    padding: 30px 50px 10px 20px; 
+}
+p {
+    margin: 0 0 -80px 10px;
+    padding: 40px 60px 10px 20px;
+}
+
+/* .parallax {
+    background: url('img/full-image.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px; 
+} */
+.full-image {
+    padding: 200px 35px;
+    background: transparent;    
+    text-align: center;
+    /* background: #1abc9c; */
+    color: white;
+    /* font-size: 30px; */
+    font: bold;
+    font-size: 30px;
+    background-position: center;
+    font-family: Georgia, serif;
+    width:100%;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+hr { 
+    display: block;
+    width: 60%;
+} 
+p.b {
+    margin: 0px 10px 60px 200px;   
+    padding: 30px 20px 50px 0px; 
+    height: 190px;
+    text-align: center;
+    color: darkgray;
+    width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    background-position: center; 
+    border-top: 4px solid darkgray;
+    border-bottom: 4px solid darkgray;
+    font: bold;
+    
+}
+p.c {
+    margin: -60px 50px 10px 90px;
+    padding: 10px 100px 0px 20px;
+    border-left: 2px solid darkgray;
+    border-width: 3px;
+    height: 130px;
+    text-align: left;
+    color: darkgray;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-position: left; 
+    width: 600px;
+}
+p.d {
+    margin: 20px 30px 30px 30px;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+.full-image-1 {
+    padding: 200px 35px;
+    background: transparent;    
+    text-align: center;
+    /* background: #1abc9c; */
+    color: white;
+    /* font-size: 30px; */
+    font: bold;
+    font-size: 30px;
+    background-position: center;
+    font-family: Georgia, serif;
+    width:100%;
+}
+.text {
+
+    width: 70%;
+    background-position: center;
+    text-align: center;
+    font-family: "Georgia, serif";
+    color: darkgray;
+    font: bold;
+    font-size: 50px;
+    border-bottom: 2px solid darkgray;
+    border-top: 2px solid darkgray;
+}
+.text1 {
+    width: 80%;
+    background-position: center;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgray;
+    font: bold;
+    font-size: 20px;
+    border-left: 2px solid darkgray;
+    
+}
+.text3 {
+    width: 80%;
+    background-position: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgray;
+    font: bold;
+    font-size: 20px;
+
+    
+}
+p.f {
+    
+    font-family: "Times New Roman", Times, serif;
+    color: darkgray;
+    /* margin: 20px 20px 20px 10px; */
+    margin: 10px 10px 10px 10px; 
+
+}
+
+
+* {
+  box-sizing:border-box;
+}
+
+.left {
+  background-color:#2196F3;
+  padding:20px;
+  float:left;
+  width:20%; /* The width is 20%, by default */
+}
+
+.main {
+  background-color:#f1f1f1;
+  padding:20px;
+  float:left;
+  width:60%; /* The width is 60%, by default */
+}
+
+.right {
+  background-color:#4CAF50;
+  padding:20px;
+  float:left;
+  width:20%; /* The width is 20%, by default */
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .left, .main, .right {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
